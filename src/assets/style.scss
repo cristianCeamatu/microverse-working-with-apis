@@ -1,9 +1,3 @@
-$body-color: yellow;
-
-body {
-  background-color: $body-color;
-
-  div {
-    background-color: red;
-  }
+.hide {
+  display: none !important;
 }
