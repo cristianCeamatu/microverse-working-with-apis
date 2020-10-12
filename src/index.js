@@ -44,7 +44,6 @@ document.querySelector('#search-form').addEventListener('submit', (e) => {
       document.body.querySelector('#image-container').appendChild(img);
     })
     .catch((error) => {
-      console.log(error);
       const message = document.createElement('p');
       message.className = 'text-danger font-weight-bold mt-1';
       message.innerText =
